@@ -1,0 +1,20 @@
+.card:hover {
+  height: 410px;
+  box-shadow: 20px 20px 40px 0px rgba(0, 0, 0, 0.5);
+}
+
+.flex-container {
+  /* We first create a flex layout context */
+  display: flex !important;
+
+  /* Then we define the flow direction 
+       and if we allow the items to wrap 
+     * Remember this is the same as:
+     * flex-direction: row;
+     * flex-wrap: wrap;
+     */
+  flex-flow: row wrap;
+
+  /* Then we define how is distributed the remaining space */
+  justify-content: space-around;
+}
